@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #004AAD;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+    scale: 200%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+
+}
+
+
+.auth-buttons a {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 2px solid #004AAD;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.auth-buttons a:first-child {
+    color: #004AAD;
+    border-color: #004AAD;
+}
+.auth-buttons a:first-child:hover{
+    background-color: #004AAD;
+    color: #f9f9f9;
+    transition-delay: 5ms;
+    transition-duration: 10ms;
+}
+
+.auth-buttons a:last-child {
+    color: white;
+    background-color: #28a745;
+}
+
+.auth-buttons a:last-child:hover{
+    color: #28a745;
+    background-color: #f9f9f9;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.main-content h1 {
+    color: #28a745;
+    scale: 150%;
+    margin-top: -35px;
+}
+
+.main-content p {
+    color: #666;
+    scale: 110%;
+    
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 8%;
+}
+
+.feature {
+    margin: 0 20px;
+    text-align: center;
+    
+}
+
+.feature img {
+    width: 100px;
+    margin-bottom: 10px;
+    scale: 150%;
+}
+
+.feature h3 {
+    color: #28a745;
+}
+
+.cta {
+    background-color: #f9f9f9;
+    color: #28a745;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+
+    
+}
+
+.cta a {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: lighter;
+    border-style: solid;
+    border-radius: 25px;
+
+    
+}
+
+.cta a:hover{
+    background-color: #f9f9f9;
+    color: #28a745;
+}
+
+.home{
+    scale: 125%;
+    margin-left: 2%;
+    color: #007bff;
+    
+}
+
+
+.menu a{
+    scale: 110%;
+    color: #004AAD;
+}
+
+.label{
+    margin: 15px;
+}
